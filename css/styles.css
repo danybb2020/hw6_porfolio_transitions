@@ -1,0 +1,117 @@
+h1 {
+  color: black;
+  font-weight: bold;
+  font-family: "Qahiri", sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  color: darkgreen;
+  font-weight: bold;
+
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+h3 {
+  color: gray;
+  font-weight: bold;
+}
+
+h4 {
+  color: darkblue;
+  font-weight: bold;
+}
+
+h5 {
+  color: darkcyan;
+  font-weight: bold;
+}
+
+p {
+  color: lightblue;
+  font-weight: 100;
+}
+
+p.story3 {
+  width: 75%;
+}
+
+p.story1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+}
+
+p.story2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: inherit;
+}
+
+body {
+  background-color: rgb(69, 66, 66);
+}
+
+.story1:hover {
+  font-weight: bold;
+  color: green;
+  background-color: #0000ff;
+}
+
+a[href="http://disney.com/"]
+{
+  background-color: orange;
+  padding: 1rem;
+}
+
+a[href="http://nike.com/"]
+{
+  background-color: pink;
+}
+
+a[href="http://nike.com/"]:hover
+{
+  background-color: royalblue;
+}
+
+img {
+  border-style: dashed;
+  border-color: red;
+  border-width: 3px;
+  width: 50%;
+}
+
+footer {
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  width: 25%;
+}
+
+a {
+  color: #fff;
+  background-color: teal;
+  transition: all 1s ease-out;
+}
+
+a:hover,
+a:focus {
+  color: white;
+  background-color: purple;
+  font-size: x-large;
+}
+
+li:nth-child(odd) {
+  color: green;
+  font-weight: 500;
+}
+
+img {
+  height: 200px;
+  width: 350px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+img:hover {
+  width: 700px;
+  height: 400px;
+  transform: rotate(360deg);
+}
